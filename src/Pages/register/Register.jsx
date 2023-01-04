@@ -7,9 +7,14 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Başlık</h1>
-          <p>Açıklama kısmı</p>
-          <span>Do you have an account</span>
+          <h1>Kendine Kütüphane</h1>
+          <p>
+            {" "}
+            Kendin için oluşturduğun bir online kitap defteri uygulaması. Aynı
+            zamanda diğer kullanıcıların kitap defterlerini görebilir ve ortak
+            okumalar üzerinden sohbet edebilirsin.
+          </p>
+          <span>Hesabın varsa</span>
           <Link to="/login">
             <button>Login</button>
           </Link>
